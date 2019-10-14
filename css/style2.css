@@ -257,7 +257,7 @@ ul#navigation > li > a {
 
 ul#navigation li:hover, ul#navigation li:focus, ul#navigation .active{
 	background-color: rgba(54, 54, 54, 0.8) !important; 
-    color: rgba(3, 204, 133, 0.6);
+    color: #9a9ef6;
     border-right: 3px solid rgba(3, 204, 133, 0.6);
 }
 
