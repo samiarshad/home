@@ -255,14 +255,25 @@ ul#navigation > li > a {
     transition: all 0.9s ease;
 }
 
-ul#navigation li:hover, ul#navigation li:focus, ul#navigation .active{
-	background-color: rgba(54, 54, 54, 0.8) !important; 
-    color: #9a9ef6;
-    border-right: 3px solid rgba(3, 204, 133, 0.6);
+ul#navigation li:hover, ul#navigation li:focus{
+    background-color: rgba(54, 54, 54, 0.8) !important; 
+    color: #98AFC7;
+    border-right: 3px solid #98AFC7;
 }
 
-ul#navigation li:hover a,ul#navigation li:focus a, ul#navigation .active a {
-	color: #9a9ef6;
+ul#navigation .active{
+	background-color: rgba(54, 54, 54, 0.8) !important; 
+    color: #4863A0;
+    border-right: 3px solid #4863A0;
+}
+
+ul#navigation li:hover a,ul#navigation li:focus a{
+    color: #98AFC7;
+}
+
+ul#navigation .active a {
+    color: #4863A0;
+	<!-- color: rgba(3, 204, 133, 0.6); -->
 }
 
 ul#navigation li:hover a h4,ul#navigation li:focus a h4, ul#navigation .active h4 {
