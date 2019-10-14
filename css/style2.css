@@ -262,7 +262,7 @@ ul#navigation li:hover, ul#navigation li:focus, ul#navigation .active{
 }
 
 ul#navigation li:hover a,ul#navigation li:focus a, ul#navigation .active a {
-	color: rgba(3, 204, 133, 0.6);
+	color: #9a9ef6;
 }
 
 ul#navigation li:hover a h4,ul#navigation li:focus a h4, ul#navigation .active h4 {
