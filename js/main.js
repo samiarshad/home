@@ -217,7 +217,7 @@ $(document).ready(function(){
 	/*++++++++++++++++++++++++++++++++++++
 		click event on ul.timeline titles
 	++++++++++++++++++++++++++++++++++++++*/
-	$("ul.timeline").children().eq(0)
+	$("ul.timeline").children().eq(-1)
 		.find(".text").slideDown()
 		.addClass("open");
 
