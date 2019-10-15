@@ -52,7 +52,8 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6, .what {
 .pageTitle{
     font-size: 45px;
     font-family: 'Sofia';
-    margin-left: 40px;
+    /*margin-left: 40px;*/
+    text-align: center;
 }
 .pubtitle{
     font-size: 14px;
@@ -88,7 +89,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6, .what {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #b30000; 
+    background: #4863A0; 
 }
 
 /******************* Scroolbar ****************************/
@@ -374,7 +375,7 @@ ul#navigation li .fa {
 }
 
 .pageTitleBackground{
-    background-color: rgba(0,0,0,0.2);
+    background-color: #98AFC7;
     padding: 1px 0px;
     color: #fff;
     -webkit-text-stroke-width: 1px;
