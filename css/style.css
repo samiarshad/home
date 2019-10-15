@@ -11,6 +11,7 @@ div a img{
 	src: local('Lato Light'), local('Lato-Light'), url(https://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
 }
 
+
 @font-face {
 	font-family: 'Lato';
 	font-style: normal;
