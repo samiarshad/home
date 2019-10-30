@@ -19,15 +19,17 @@ document.addEventListener('scroll', function (event) {
         
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
-        // console.log(currLink.attr("href")+' '+refElement.position().top+' '+refElement.height()+' '+scrollPos);
-        
-        if(!(currLink.parent().hasClass("active")) && refElement.position().top <=50 && scrollPos >= (refElement.position().top+refElement.height())){
+        var h = refElement.position().top+refElement.height()
+        // console.log(currLink.attr("href")+' '+refElement.position().top+' '+refElement.height()+' '+scrollPos+' '+h);
+                
+        if(!(currLink.parent().hasClass("active")) && refElement.position().top <=h/2 && scrollPos >= (refElement.position().top+refElement.height())){
         //remove and add active
         
         $("ul#navigation li.active").removeClass("active");
         currLink.parent().addClass("active");
         return;
-    }
+	    }
+
         
     });
 }, true);
@@ -217,7 +219,7 @@ $(document).ready(function(){
 	/*++++++++++++++++++++++++++++++++++++
 		click event on ul.timeline titles
 	++++++++++++++++++++++++++++++++++++++*/
-	$("ul.timeline").children().eq(-1)
+	$("ul.timeline").children().eq(0)
 		.find(".text").slideDown()
 		.addClass("open");
 
