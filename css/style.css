@@ -159,7 +159,7 @@ h1,h3,h4,h5,h6,.h1,.h3,.h4,.h5,.h6, .what {
 	top: 0;
 	left: 0;
 	bottom: 0;
-	background-image: url(../img/home.jpg);
+	/*background-image: url(../img/side-back.jpg);*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -1113,7 +1113,7 @@ ul.contact li .data {
 
  .home .pageheader{
     position:relative;
-	background-image: url(../img/home.jpg);
+	background-image: url(../img/cover.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom left;
